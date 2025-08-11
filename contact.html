@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>سایت لوازم هنری</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+     <link rel="stylesheet" href="STYLE.CSS">
+
+       <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f1c5e0;
+    }
+
+    .contact-card {
+      max-width: 700px;
+      margin: 60px auto;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+      padding: 30px;
+      text-align: right;
+    }
+
+    .contact-card h2 {
+      font-size: 24px;
+      color: #ff65ba;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    .contact-info {
+      margin-bottom: 30px;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      font-size: 16px;
+      color: #444;
+    }
+
+    .contact-item i {
+      font-style: normal;
+      font-size: 20px;
+      margin-left: 10px;
+      color: #d3007f;
+    }
+
+    .contact-form label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .contact-form textarea {
+      resize: vertical;
+      height: 120px;
+    }
+
+    .contact-form button {
+      background-color: #f72585;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 15px;
+      transition: background-color 0.3s ease;
+    }
+
+    .contact-form button:hover {
+      background-color: #d3007f;
+    }
+
+    @media (max-width: 600px) {
+      .contact-card {
+        margin: 30px 15px;
+        padding: 20px;
+      }
+
+      .contact-item {
+        font-size: 15px;
+      }
+    }
+  </style>
+<body>
+       <section>
+        <div class="all-content">
+
+          <header>
+            <input type="checkbox" id="toggler">
+            <label for="toggler" class="fas fa-bars"></label>
+        
+            <a href="#" class="logo">نقش‌آرا <span>❁</span></a>
+        
+            <nav class="navbar">
+              <a href="index.html">صفحه اصلی</a>
+              <a href="products.html">محصولات</a>
+              <a href="abutus.html">درباره ما</a>
+              <a href="contact.html">تماس با ما</a>
+            </nav>
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-user"></a>
+            </div>
+          </header>
+
+        </div>
+
+    </section>
+
+    
+  <div class="contact-card"  style="position: relative; top: 30px;">
+    <h2>تماس با ما</h2>
+
+    <div class="contact-info">
+      <div class="contact-item">
+        <i>📞</i>
+        <span>۰۹۱۲-۳۴۵-۶۷۸۹</span>
+      </div>
+      <div class="contact-item">
+        <i>📧</i>
+        <span>info@naghshara.ir</span>
+      </div>
+      <div class="contact-item">
+        <i>📍</i>
+        <span>تهران، خیابان انقلاب، پلاک ۱۲۳، واحد ۴</span>
+      </div>
+    </div>
+
+    <form class="contact-form" action="#" method="post">
+      <label for="name">نام شما:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">ایمیل:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">پیام شما:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">ارسال پیام</button>
+    </form>
+  </div>
+
+
+  <footer id="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>نقش آرا</h3>
+        <p>فروشگاه لوازم تحریر و هنری با بهترین کیفیت و ارسال سریع به سراسر کشور</p>
+      </div>
+  
+      <div class="footer-links">
+        <h4>لینک‌های سریع</h4>
+        <ul>
+          <li><a href="index.html">صفحه اصلی</a></li>
+          <li><a href="products.html">محصولات</a></li>
+          <li><a href="abutus.html">درباره ما</a></li>
+          <li><a href="contact.html">تماس با ما</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-social">
+        <h4>ما را دنبال کنید</h4>
+        <div class="social-links" dir="ltr">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>© ۲۰۲۵ نقش آرا | تمامی حقوق محفوظ است.</p>
+    </div>
+  </footer>
+    
+    
+</body>
+</html>

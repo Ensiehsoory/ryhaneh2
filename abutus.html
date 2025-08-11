@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>سایت لوازم هنری - نقش آرا</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="STYLE.CSS" />
+    <style>
+        /* استفاده از متغیرهای CSS شما */
+        :root {
+            --blue: #d3007f;
+            --pink: #f72585;
+            --dark: #222;
+            --light: #f9f9f9;
+            --shadow: rgba(0, 0, 0, 0.1);
+        }
+
+        /* درباره ما */
+        .about-section {
+          position: relative;
+          top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 4rem auto;
+            gap: 30px;
+            background: linear-gradient(135deg, var(--blue), var(--pink));
+            border-radius: 1.2rem;
+            box-shadow: 0 0.5rem 1rem var(--shadow);
+            color: white;
+            direction: rtl;
+        }
+
+        .about-text {
+            flex: 1 1 500px;
+            text-align: right;
+        }
+
+        .about-text h2 {
+            font-size: 3rem;
+            color: #fff;
+            margin-bottom: 20px;
+            text-shadow: 0 0 5px rgba(0,0,0,0.3);
+            font-weight: 700;
+        }
+
+        .about-text p {
+            font-size: 1.6rem;
+            line-height: 2.2;
+            margin-bottom: 25px;
+            color: #f0e5f8cc; /* کمی روشن‌تر */
+        }
+
+        .about-text a.button {
+            display: inline-block;
+            background-color: #fff;
+            color: var(--pink);
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.4rem;
+            font-weight: 700;
+            box-shadow: 0 4px 12px rgba(247, 37, 133, 0.5);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .about-text a.button:hover {
+            background-color: var(--pink);
+            color: #fff;
+            box-shadow: 0 6px 16px var(--pink);
+        }
+
+        .about-image {
+            flex: 1 1 400px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .about-image:hover {
+            transform: scale(1.05);
+        }
+
+        .about-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .about-section {
+                flex-direction: column-reverse;
+                text-align: center;
+                padding: 40px 15px;
+            }
+
+            .about-text {
+                text-align: center;
+            }
+
+            .about-text a.button {
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+  section>
+  <div class="all-content">
+    <header>
+      <input type="checkbox" id="toggler">
+      <label for="toggler" class="fas fa-bars"></label>
+  
+      <a href="#" class="logo">نقش‌آرا <span>❁</span></a>
+  
+      <nav class="navbar">
+        <a href="index.html">صفحه اصلی</a>
+        <a href="products.html">محصولات</a>
+        <a href="abutus.html">درباره ما</a>
+        <a href="contact.html">تماس با ما</a>
+      </nav>
+  
+      <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+      </div>
+    </header>
+  </div>
+</section>
+
+    <section class="about-section">
+        <div class="about-text">
+            <h2>درباره ما</h2>
+            <p>
+                ما در فروشگاه لوازم‌التحریر، با هدف ارائه بهترین و متنوع‌ترین محصولات تحصیلی، هنری و اداری فعالیت می‌کنیم.  
+                تلاش می‌کنیم تا با کیفیت بالا، قیمت مناسب و ارسال سریع، تجربه‌ای لذت‌بخش از خرید را برای شما فراهم کنیم.  
+                مشتریان ما از سراسر کشور می‌توانند به صورت آنلاین سفارش خود را ثبت کنند و از خدمات پشتیبانی حرفه‌ای ما بهره‌مند شوند.
+            </p>
+            <a href="contact.html" class="button">بیشتر بدانید</a>
+        </div>
+        <div class="about-image">
+            <img src="bbbb.jpg" alt="تصویر درباره ما" />
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-container">
+          <div class="footer-about">
+            <h3>نقش آرا</h3>
+            <p>فروشگاه لوازم تحریر و هنری با بهترین کیفیت و ارسال سریع به سراسر کشور</p>
+          </div>
+      
+          <div class="footer-links">
+            <h4>لینک‌های سریع</h4>
+            <ul>
+              <li><a href="index.html">صفحه اصلی</a></li>
+              <li><a href="products.html">محصولات</a></li>
+              <li><a href="abutus.html">درباره ما</a></li>
+              <li><a href="contact.html">تماس با ما</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-social">
+            <h4>ما را دنبال کنید</h4>
+            <div class="social-links" dir="ltr">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="footer-bottom">
+          <p>© ۲۰۲۵ نقش آرا | تمامی حقوق محفوظ است.</p>
+        </div>
+      </footer>
+
+</body>
+</html>
